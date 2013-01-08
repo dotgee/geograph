@@ -1,0 +1,11 @@
+body, html {
+  -webkit-font-smoothing: subpixel-antialiased;
+}
+
+body {
+  max-width: 1600px;
+  @include box-shadow(rgba(0, 0, 0, 0.1) 0px 0 20px 10px);
+  margin: 0 auto;
+  position: relative;  
+  background-color: white;
+}
