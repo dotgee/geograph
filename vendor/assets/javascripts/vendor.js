@@ -19,5 +19,9 @@
 //= require d3.v3.min
 // require d3.v2
 //= require rickshaw
+<<<<<<< HEAD
 //= require toastr
 //= require jquery.handsontable
+=======
+//= require toastr
+>>>>>>> 22994f628c7f4825a40b150dd05015282be989f7

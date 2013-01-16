@@ -191,6 +191,10 @@ div, span, p, td {
 }
 #chart {
   position: relative;
+<<<<<<< HEAD
+=======
+  left: 40px;
+>>>>>>> 22994f628c7f4825a40b150dd05015282be989f7
 }
 #y_axis {
   position: absolute;

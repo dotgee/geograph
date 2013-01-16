@@ -1,4 +1,5 @@
 = simple_form_for(@chart, :html => {:class => "form-horizontal"}) do |f|
+<<<<<<< HEAD
   ul.nav.nav-tabs
     li.active
       = link_to "Données", "#data-pan", "data-toggle" => "tab"
@@ -20,3 +21,9 @@
 
     .form-actions
       = f.submit :class => "m-btn blue"
+=======
+  = f.input :name
+  = f.input :csv
+  .form-actions
+    = f.submit :class => "m-btn blue"
+>>>>>>> 22994f628c7f4825a40b150dd05015282be989f7

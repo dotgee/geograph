@@ -13,11 +13,19 @@ html(lang="en")
     #wrap
       .navbar.backend
         .navbar-inner
+<<<<<<< HEAD
           .container
             ul.nav
               li
                 = link_to "GeoGraph", root_path, :class => "brand"
       .container.shadow-container
+=======
+          .container-fluid
+            ul.nav
+              li
+                = link_to "GeoGraph", root_path, :class => "brand"
+      .container-fluid
+>>>>>>> 22994f628c7f4825a40b150dd05015282be989f7
         == render "layouts/messages"
         == yield
         #push
