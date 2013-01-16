@@ -1,0 +1,12 @@
+body, html {
+  -webkit-font-smoothing: subpixel-antialiased;
+}
+
+body {
+  background-color: white;
+}
+
+.shadow-container {
+  @include box-shadow(rgba(0, 0, 0, 0.1) 0px 0 20px 10px);
+  padding: 20px;
+}

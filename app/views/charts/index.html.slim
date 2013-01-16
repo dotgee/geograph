@@ -1,0 +1,21 @@
+.page-header
+  h1 Listing charts
+
+table.table.table-striped
+  thead
+    tr
+      th Name
+      th
+      th
+      th
+  tbody
+    - @charts.each do |chart|
+      tr
+        td = chart.name
+        td = link_to 'Show', chart
+        td = link_to 'Edit', edit_chart_path(chart)
+        td = link_to 'Destroy', chart, :confirm => 'Are you sure?', :method => :delete
+
+br
+
+= link_to 'New chart', new_chart_path, :class => "m-btn"
